@@ -8,8 +8,6 @@
    ██║   ██╔══██║╚════██║██╔═██╗     ██║███╗██║██║   ██║██╔══╝  ██╔══██╗
    ██║   ██║  ██║███████║██║  ██╗    ╚███╔███╔╝╚██████╔╝███████╗██║  ██║
    ╚═╝   ╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝     ╚══╝╚══╝  ╚═════╝ ╚══════╝╚═╝  ╚═╝
-
-
 <p align="center"> <img src="https://img.shields.io/badge/Rust-⚡_Async_Worker-dd00ff?style=for-the-badge&logo=rust&logoColor=white"/> <img src="https://img.shields.io/badge/Tokio-powered-00eaff?style=for-the-badge&logo=tokio&logoColor=white"/> <img src="https://img.shields.io/badge/Ultra_Lightweight-000000?style=for-the-badge"/> <img src="https://img.shields.io/badge/Cyberpunk_Mode-On-ff009d?style=for-the-badge"/> </p>
 🧬 Описание
 
@@ -55,7 +53,6 @@ pub async fn do_hack_job() {
 tokio::spawn(async move {
     do_hack_job().await;
 });
-
 
 🐳 Docker
 FROM rust:1.75
